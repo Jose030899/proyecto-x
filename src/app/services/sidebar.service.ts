@@ -5,10 +5,10 @@ import { Injectable } from '@angular/core';
 })
 export class SidebarService {
   menu: any = [{
-    titulo: 'Main',
+    titulo: 'Principal',
     icono: 'mdi mdi-guage',
     submenu: [
-      {titulo: 'Main2', url: '/'},
+      {titulo: 'Main', url: '/'},
       {titulo: 'ProgressBar', url: '/progress'},
       {titulo: 'Graphics', url: '/graphic1'},
       // {titulo: 'Main', url: '/'},
